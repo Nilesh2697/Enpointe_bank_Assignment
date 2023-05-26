@@ -69,7 +69,6 @@ export const Signup = () => {
             Sign up
           </Heading>
           <Text fontSize={'lg'} color={'gray.600'}>
-            to enjoy all of our cool features ✌️
           </Text>
         </Stack>
         <Box
