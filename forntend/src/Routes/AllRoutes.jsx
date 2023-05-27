@@ -9,10 +9,7 @@ export const AllRoutes = () => {
     return (
         <div>
             <Routes>
-                <Route path='/homepage' element={<Homepage />}> </Route>
-                <Route path='/login' element={<Login />}></Route>
-                <Route path='/' element={<Signup />}></Route>
-                <Route path='homepage/:user_id' element={<UserTransations />}></Route>
+                
             </Routes>
         </div>
     )
