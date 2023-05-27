@@ -48,7 +48,7 @@ export const Login = () => {
     <Stack style={{ backgroundColor:'#f3f4f6', marginTop:'60px'}} minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={4} w={'full'} maxW={'md'}>
-          <Heading fontSize={'2xl'}>Login to your account</Heading>
+          <Heading fontSize={'2xl'}>Login</Heading>
           <FormControl id="email">
             <FormLabel>Email address</FormLabel>
             <Input name='email' value={email} onChange={(e) => setEmail(e.target.value)} type="email" />
